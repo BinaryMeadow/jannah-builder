@@ -117,7 +117,7 @@ jobs:
           '
           npx expo prebuild --platform android --no-install
 
-      - name: Enable R8 minification + resource shrinking
+      - name: Enable R8 minification + limit release ABIs
         run: |
           # Turn on code minification and resource shrinking for the release
           # build. With an AAB, R8's mapping file is embedded in the bundle
@@ -132,7 +132,10 @@ jobs:
           }
           set_prop android.enableMinifyInReleaseBuilds true
           set_prop android.enableShrinkResourcesInReleaseBuilds true
-          grep -nE "enableMinify|enableShrink" "$props"
+          # Build only the ABIs real devices use. The x86/x86_64 slices are for
+          # emulators, and compiling their native code doubles the build time.
+          set_prop reactNativeArchitectures arm64-v8a,armeabi-v7a
+          grep -nE "enableMinify|enableShrink|reactNativeArchitectures" "$props"
 
       - name: Configure release signing
         run: |
