@@ -4,7 +4,7 @@
 
 A spiritually-sensitive prayer tracking app that visualises your spiritual journey as a growing pixel-art landscape.
 
-[![GitHub release downloads](https://img.shields.io/github/downloads/faesel/jannah-builder/total?label=downloads&color=brightgreen)](https://github.com/faesel/jannah-builder/releases)
+[![GitHub release downloads](https://img.shields.io/github/downloads/binarymeadow/jannah-builder/total?label=downloads&color=brightgreen)](https://github.com/binarymeadow/jannah-builder/releases)
 
 For more information, visit [binarymeadow.com/apps/jannah-builder](https://www.binarymeadow.com/apps/jannah-builder/).
 

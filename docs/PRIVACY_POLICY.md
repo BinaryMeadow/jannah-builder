@@ -57,4 +57,4 @@ If this privacy policy is updated, the changes will be reflected in the app's re
 
 ## Contact
 
-If you have questions about this privacy policy, please open an issue on the [GitHub repository](https://github.com/faesel/jannah-builder).
+If you have questions about this privacy policy, please open an issue on the [GitHub repository](https://github.com/binarymeadow/jannah-builder).

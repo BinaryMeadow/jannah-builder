@@ -39,7 +39,7 @@ prayer, salah, Islamic, Muslim, prayer tracker, spiritual, Quran, dhikr, daily p
 Lifestyle (primary), Health & Fitness (secondary)
 
 ## Privacy Policy URL
-https://github.com/faesel/jannah-builder/blob/main/docs/PRIVACY_POLICY.md
+https://github.com/binarymeadow/jannah-builder/blob/main/docs/PRIVACY_POLICY.md
 
 ## Content Rating
 Everyone / 4+
